@@ -1,33 +1,17 @@
-{#{% extends 'base.html' %}#}
-{##}
-{#{% block menu %}<li><a href="{% url "add_comment" %}">Добавить запись</a></li>{% endblock menu %}#}
-{#{% block title %}Все записи{% endblock title %}#}
-{#{% block page_header %}Комментарии{% endblock page_header %}#}
-{#{% block content %}#}
-{#    {% if not comment %}#}
-{#        <h2>Нету записи</h2>#}
-{#    {% endif %}#}
-{#    <table class="table">#}
-{#  <thead class="thead-dark">#}
-{#    <tr>#}
-{#      <th scope="col">id</th>#}
-{#      <th scope="col">name</th><th scope="col">email</th><th scope="col">comment</th>#}
-{#    </tr>#}
-{#  </thead>#}
-{#  <tbody>#}
-{#        {% for comment in comment %}#}
-{#           <tr>#}
-{#        {% if comment.status != 'blocked' %}#}
-{##}
-{#            <th>{{ comment.id }}</th>#}
-{#            <th>{{ comment.name }}</th>#}
-{#            <th>{{ comment.email }}</th>#}
-{#            <th>{{ comment.comment }}</th>#}
-{#            <td><a href="{% url "del_comment" good.id %}">{{ good.name }}</a></td>#}
-{#        {% endif %}#}
-{#          </tr>#}
-{#    {% endfor %}#}
-{#  </tbody>#}
-{#</table>#}
-{##}
-{#{% endblock content %}#}
+{% extends 'base.html' %}
+
+{#{% block menu %}<li><a href="{% url "#" %}">Создать статью</a></li>{% endblock menu %}#}
+
+{% block title %}Все записи{% endblock title %}
+
+{% block page_header %}Все комментарии{% endblock page_header %}
+
+{% block content %}
+    {% if not comment %}
+        <h2>НЕТ КОММЕНТАРИЙ</h2>
+    {% endif %}
+
+    {% for comment in comment %}
+        <p>{{ comment.name }}{{ comment.email }}: {{comment.comment }} {{ comment.status }}</p>
+    {% endfor %}
+{% endblock content %}
