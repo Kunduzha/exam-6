@@ -16,6 +16,13 @@
             <div><p>{{ comment.name }}</p><p>{{ comment.email }}</p><p>{{ comment.status }}</p></div>
             <div>{{comment.comment }}</div>
 
+        <h6>
+                    <a href="{% url 'update_comment' comment.pk %}">изменить</a>
+        </h6>
+
+{#        <h6>#}
+{#                    <a href="{% url 'dell_comment' comment.pk %}">удалить</a>#}
+{#        </h6>#}
 
     {% endfor %}
 {% endblock content %}
