@@ -19,9 +19,9 @@ from webapp.views import main_page, dell_comment, update_comment, add_comment
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-     path('', main_page, name='all_page'),
+    path('', main_page, name='all_page'),
     # path('<int:pk>/update', update_comment, name='update_comment'),
-    # path('<int:pk>/delete', dell_comment, name='delete_comment'),
-    # path('<int:pk>/delete', add_comment, name='add_comment'),
+     path('<int:pk>/delete', dell_comment, name='delete_comment'),
+     path('add/', add_comment, name='add_comment'),
 
 ]

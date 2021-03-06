@@ -60,6 +60,102 @@
   }
 },
 {
+  "model": "webapp.comments",
+  "pk": 6,
+  "fields": {
+    "name": "Тося",
+    "email": "ghdfgh@mail.ru",
+    "comment": "j;jkljlkjlkjkl",
+    "status": "active",
+    "created_at": "2021-03-06T11:06:39.980Z",
+    "updated_at": "2021-03-06T11:06:39.980Z"
+  }
+},
+{
+  "model": "webapp.comments",
+  "pk": 7,
+  "fields": {
+    "name": "Тося",
+    "email": "ghdfgh@mail.ru",
+    "comment": "пожалуйста повысьте оценку",
+    "status": "active",
+    "created_at": "2021-03-06T11:12:48.289Z",
+    "updated_at": "2021-03-06T11:12:48.289Z"
+  }
+},
+{
+  "model": "webapp.comments",
+  "pk": 8,
+  "fields": {
+    "name": "Тося",
+    "email": "ghdfgh@mail.ru",
+    "comment": "пожалуйста повысьте оценку",
+    "status": "active",
+    "created_at": "2021-03-06T11:22:25.623Z",
+    "updated_at": "2021-03-06T11:22:25.623Z"
+  }
+},
+{
+  "model": "webapp.comments",
+  "pk": 9,
+  "fields": {
+    "name": "Тося",
+    "email": "ghdfgh@mail.ru",
+    "comment": "пожалуйста повысьте оценку",
+    "status": "active",
+    "created_at": "2021-03-06T11:24:30.854Z",
+    "updated_at": "2021-03-06T11:24:30.854Z"
+  }
+},
+{
+  "model": "webapp.comments",
+  "pk": 10,
+  "fields": {
+    "name": "Тося",
+    "email": "ghdfgh@mail.ru",
+    "comment": "пожалуйста повысьте оценку",
+    "status": "active",
+    "created_at": "2021-03-06T11:25:06.813Z",
+    "updated_at": "2021-03-06T11:25:06.813Z"
+  }
+},
+{
+  "model": "webapp.comments",
+  "pk": 11,
+  "fields": {
+    "name": "Тося",
+    "email": "ghdfgh@mail.ru",
+    "comment": "пожалуйста повысьте оценку",
+    "status": "active",
+    "created_at": "2021-03-06T11:25:51.426Z",
+    "updated_at": "2021-03-06T11:25:51.426Z"
+  }
+},
+{
+  "model": "webapp.comments",
+  "pk": 12,
+  "fields": {
+    "name": "Тося",
+    "email": "ghdfgh@mail.ru",
+    "comment": "пожалуйста повысьте оценку",
+    "status": "active",
+    "created_at": "2021-03-06T11:26:52.317Z",
+    "updated_at": "2021-03-06T11:26:52.317Z"
+  }
+},
+{
+  "model": "webapp.comments",
+  "pk": 13,
+  "fields": {
+    "name": "Капуста",
+    "email": "ghdfgh@mail.ru",
+    "comment": "Этот заблокированный",
+    "status": "blocked",
+    "created_at": "2021-03-06T11:38:31.205Z",
+    "updated_at": "2021-03-06T11:38:31.205Z"
+  }
+},
+{
   "model": "auth.user",
   "pk": 1,
   "fields": {
