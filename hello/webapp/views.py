@@ -34,9 +34,9 @@ def dell_comment():
 
 
 def update_comment(request, pk):
-    comment = get_object_or_404(Good, id=pk)
+    comment = get_object_or_404(Comments, id=pk)
 
-    if request.method == 'GET':  # если метод запроса GET
+    if request.method == 'GET':
         form = Commentform(initial={
             'name': comment.name,
             'email': comment.email,

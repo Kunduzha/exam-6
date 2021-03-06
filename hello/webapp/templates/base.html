@@ -13,6 +13,8 @@
     <nav class="navbar">
         <ul class="menu">
             <li><a href="{% url "all_page" %}">Все записи</a></li>
+            <li><a href="{% url "add_comment" %}">Добавить запись</a></li>
+
             {% block menu %}{% endblock %}
         </ul>
     </nav>
