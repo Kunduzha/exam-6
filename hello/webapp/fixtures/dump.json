@@ -1,0 +1,80 @@
+[
+{
+  "model": "webapp.comments",
+  "pk": 1,
+  "fields": {
+    "name": "Kunduz",
+    "email": "ghdfgh@mail.ru",
+    "comment": "Наконец то что то выводится",
+    "status": "active",
+    "created_at": "2021-03-06T09:56:17.172Z",
+    "updated_at": "2021-03-06T09:56:17.172Z"
+  }
+},
+{
+  "model": "webapp.comments",
+  "pk": 2,
+  "fields": {
+    "name": "кузя",
+    "email": "ghdfgh@mail.ru",
+    "comment": "пожалуйста повысьте оценку",
+    "status": "active",
+    "created_at": "2021-03-06T09:57:10.066Z",
+    "updated_at": "2021-03-06T09:57:10.066Z"
+  }
+},
+{
+  "model": "webapp.comments",
+  "pk": 3,
+  "fields": {
+    "name": "Соня",
+    "email": "ghdfgh@mail.ru",
+    "comment": "Субханаллах",
+    "status": "active",
+    "created_at": "2021-03-06T09:57:44.781Z",
+    "updated_at": "2021-03-06T09:57:44.781Z"
+  }
+},
+{
+  "model": "webapp.comments",
+  "pk": 4,
+  "fields": {
+    "name": "АААААА",
+    "email": "ghdfgh@mail.ru",
+    "comment": "Этот заблокированный",
+    "status": "blocked",
+    "created_at": "2021-03-06T09:58:29.518Z",
+    "updated_at": "2021-03-06T09:58:29.518Z"
+  }
+},
+{
+  "model": "webapp.comments",
+  "pk": 5,
+  "fields": {
+    "name": "ССССС",
+    "email": "ghdfgh@mail.ru",
+    "comment": "Этот тоже заблокированный",
+    "status": "active",
+    "created_at": "2021-03-06T09:59:20.284Z",
+    "updated_at": "2021-03-06T09:59:20.284Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$QtYnasqCIFwa$8/EIwOXhhSAZw9hrX99mQIJsenmi8xFL3ByOTv8kmvs=",
+    "last_login": "2021-03-06T09:55:30.980Z",
+    "is_superuser": true,
+    "username": "kunduz",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-03-06T08:16:06.205Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
