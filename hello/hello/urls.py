@@ -15,8 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from webapp.views import main_page, dell_comment, update_comment, add_comment
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path(''/, main_page)
+    path('', main_page, name='all_page'),
+    path('<int:pk>/update', update_comment, name='update_comment'),
+    path('<int:pk>/delete', dell_comment, name='delete_comment'),
+    path('<int:pk>/delete', dell_comment, name='delete_comment'),
+
 ]
